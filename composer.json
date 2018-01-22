@@ -1,0 +1,18 @@
+{
+    "name": "habibullinrustam/bracket_counter",
+    "description": "bracket counter library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mrFanBender",
+            "email": "habibullinrustam@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Habibullin\\":"src"
+        }
+    }
+}
