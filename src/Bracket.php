@@ -17,7 +17,7 @@ class Bracket
 			}elseif($str[$i]==')'){
 				$this->close_sk++;
 			}else{
-				throw new InvalidArgumentException('Недопустимый символ в строке:'.$str[$i]);			
+				throw new \InvalidArgumentException('Недопустимый символ в строке:'.$str[$i].'Строки должны содержать только открывающие или закрывающие скобки, пробелы или табуляцию');			
 			}
 			$i++;
 		}
