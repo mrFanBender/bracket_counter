@@ -8,6 +8,8 @@ class Bracket
 	
 	public function compare(String $str){
 		$i=0;
+		$this->open_sk=0;
+		$this->close_sk=0;
 		$str = preg_replace("/[\t\r\n\s]+/", '', $str);	
 		while(isset($str[$i])){
 			if($str[$i]=='('){
